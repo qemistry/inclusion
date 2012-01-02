@@ -208,7 +208,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = '1QjqyaqIp96ehlDIn7ORN_miLzLEImwGFAd5x_ZVqjY';
+$drupal_hash_salt = file_get_contents('/home1/splendid/var/www/site-php/inclusion/salt.txt');
 
 /**
  * Base URL (optional).
